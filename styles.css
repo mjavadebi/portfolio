@@ -76,3 +76,7 @@ html[lang=en] .skill-tags{justify-content:flex-start}html[lang=en] .skills-headi
 .skills-intro,.skill-card>p{color:#e0ebe5;font-size:16px}
 @media(max-width:760px){.skills + .work{padding-top:85px}.skills-intro,.skill-card>p,html[lang=en] .skill-card>p{font-size:15px}}
 @media(max-width:760px){.skill-tags li{font-size:9px}}
+
+.insurance-stats{margin-top:44px}
+.insurance-stats>div>span{max-width:320px;font-size:13px}
+@media(max-width:760px){.insurance-stats{margin-top:34px}.insurance-stats>div>span{font-size:13px}}
