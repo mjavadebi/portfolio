@@ -1,10 +1,10 @@
 # Javad Ebrahimi — Product Portfolio
 
-A Persian-first portfolio with an English translation, built as static HTML, CSS and vanilla JavaScript. Doran and the English display font are self-hosted; all paths work under a GitHub Pages project URL such as `/portfolio/`.
+A Persian-first, bilingual portfolio built with static HTML, CSS and vanilla JavaScript. Doran and the English display font are hosted locally, and all paths work on GitHub Pages under a project URL such as `/portfolio/`.
 
 ## Run locally
 
-From this folder, start any static server:
+Start a static server in this folder:
 
 ```sh
 python3 -m http.server 8000
@@ -14,15 +14,17 @@ Open `http://localhost:8000/`.
 
 ## GitHub Pages
 
-After merging the desired changes, choose **Settings → Pages → Deploy from a branch**, select `main` and the `/ (root)` folder, then save. No build step or framework is required.
+After merging, choose **Settings → Pages → Deploy from a branch**, select `main` and `/ (root)`, then save. There is no build step.
 
 ## Editing
 
-- `index.html`: page structure, project links and Persian default content.
-- `script.js`: Persian and English copy, language toggle, mobile menu and reading progress.
-- `styles.css`: responsive layout, colors, local fonts and reduced-motion behavior.
-- `assets/portfolio-v3/`: the cropped portrait, privacy-edited project images and the supplied Persian resume PDF. Both language versions currently link to the same Persian PDF.
+- `index.html`: structure, Persian default copy, accessibility labels, project links and the layered portrait.
+- `script.js`: Persian and English copy, language switch, menu, opening sequence, scroll reveals and pointer interaction.
+- `styles.css`: layout, type, brand colors, motion and responsive behavior.
+- `assets/portfolio-v3/`: the cropped portrait, privacy-edited project images and the supplied Persian résumé PDF. Both language modes link to the same Persian PDF.
 
-Project links open the original products directly. Their availability depends on the visitor's network and the destination websites.
+The portfolio links directly to the original products. The images shown are screenshots, not live embedded sites, so the presentation does not depend on the products allowing iframes. Product availability depends on the destination and the visitor’s network.
+
+The opening sequence and nonessential motion respect the visitor’s reduced-motion preference. The portfolio remains usable when JavaScript is unavailable.
 
 DM Serif Display is distributed under the included SIL Open Font License. Doran is the font provided in the owner's existing repository.

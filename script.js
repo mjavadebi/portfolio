@@ -2,51 +2,48 @@
   'use strict';
   const copy = {
     fa: {
-      skip:'رفتن به محتوا', homeAria:'جواد ابراهیمی، صفحه اصلی', brandName:'جواد ابراهیمی', navAria:'منوی اصلی', navAbout:'درباره من', navWork:'پروژه‌ها', navApproach:'طرز فکر', navContact:'ارتباط', resumeShort:'رزومه', menuOpen:'باز کردن منو', menuClose:'بستن منو', languageAria:'Switch to English',
-      heroPhotoAria:'پرتره جواد ابراهیمی', heroIntro:'سلام، من', heroFirst:'جواد', heroLast:'ابراهیمی', heroRole:'مدیر محصول · عاشق کشف کردن', heroMeta:'محصول / داده / آدم‌ها', heroScroll:'بیا آشنا بشیم',
-      aboutLabel:'کمی درباره من', aboutTitle1:'من عاشق', aboutTitle2:'کشف کردنم.', aboutLead:'دوست دارم بفهمم فرایندها چطور کار می‌کنن، با کمک دیتا بهشون فکر کنم و برای مسئله‌های واقعی راه‌حل پیدا کنم.', aboutDetail1:'کارم از یک درخواست شروع می‌شه، ولی به انتشار فیچر ختم نمی‌شه. از شناخت کسب‌وکار و کنار هم آوردن تیم‌ها تا جایی جلو می‌رم که نتیجه رو توی داده‌ها ببینیم.', aboutDetail2:'پیشینه مهندسی کامپیوتر باعث شده با دنیای فنی هم راحت باشم؛ از تست API در Postman تا سر زدن به لاگ‌های Grafana و وضعیت سیستم در Zabbix.', aboutLink:'بیشتر درباره طرز فکرم',
-      numbersAria:'مقیاس کار', numberUsers:'کاربر در سبد محصولات B2C', numberRequests:'درخواست روزانه در محصولات', numberClients:'شرکت مشتری، با اولویت‌های متفاوت', numberNote:'مقیاس بزرگ یعنی مسئله‌های متفاوت، تصمیم‌های بیشتر و کلی چیز تازه برای فهمیدن.',
-      workLabel:'کارهای منتخب', workTitle1:'محصول‌ها،', workTitle2:'از نزدیک.', workIntro:'چند تا از محصولاتی که کنار تیم‌ها و مشتری‌ها از مسئله تا نتیجه پیش بردم.',
-      clickTag:'فروش · رشد · تجربه مشتری', clickImageAlt:'صفحه اصلی مدیران کلیک', clickDetailAlt:'نمایی از مسیر فروش مدیران کلیک', clickSubtitle:'از پورتال خدمات تا سکوی فروش.', clickBody:'وقتی این محصول رو تحویل گرفتم، با نام customer.mvmco.ir بیشتر برای خدمات پس از فروش شناخته می‌شد. در مدت حضور من، کنار تیم‌ها یک ریبرندینگ بزرگ رو پیش بردیم و مسیر محصول رو به سمت فروش و بازاریابی دیجیتال گسترش دادیم.', clickRole:'روی شناخت فرایندها، اولویت‌بندی نیازها، هماهنگی تیم‌ها و بهبود تجربه ثبت درخواست و پرداخت کار کردم.', visitSite:'رفتن به سایت', clickMetric1:'لید هدفمند در ماه، با یک قابلیت جذب', clickMetric2:'موفقیت متقاضیان جدید در ثبت درخواست', clickMetric3:'موفقیت پرداخت',
-      insuranceTag:'اتوماسیون · بیمه · فروش آنلاین', bimcoImageAlt:'صفحه اصلی فروش آنلاین بیمکو', insuranceImageAlt:'صفحه ورود سامانه بک‌آفیس بیمه', insuranceTitle:'اکوسیستم بیمه ↗', insuranceSubtitle:'از عملیات داخلی تا فروش آنلاین.', insuranceBody:'هدف ما فقط راه‌اندازی یک وب‌سایت نبود. می‌خواستیم فرایندهای داخلی بیمه رو خودکار کنیم و بعد، مسیرهای جدیدی برای فروش بسازیم.', insuranceRole:'از تحلیل فرایندها و تعریف نیازمندی‌ها تا هماهنگی تیم‌ها و استقرار، کنار محصول بودم. ایده بعد از قطعی اینترنت دی‌ماه و جنگ ۱۲روزه شکل گرفت و پس از کیک‌آف، در میانه جنگ بعدی کار رو ادامه دادیم.', visitBimco:'رفتن به بیمکو', phase1Title:'بک‌آفیس بیمه', phase1Body:'اتوماسیون فرایندهای داخلی؛ نسخه عملیاتی در سه هفته.', phase2Title:'وب‌سایت بیمکو', phase2Body:'ساخت یک مسیر آنلاین برای از دست ندادن سرنخ‌ها.', phase3Title:'مدیران کلیک', phase3Body:'فروش مستقیم بیمه برای مشتریان مدیران خودرو.',
-      appsTag:'اپلیکیشن · خدمات · تجربه مشتری', appsImageAlt:'نمایی از سه اپلیکیشن مشتریان، با اطلاعات حساب پوشانده‌شده', appsTitle:'سه اپ، یک مسیر ↗', appsSubtitle:'تجربه مشتری بعد از خرید.', appsBody:'تجربه مشتری با تحویل خودرو تموم نمی‌شه. اپلیکیشن‌های MVM، Fownix و XTRIM بخشی از ارتباط او با خدمات و محصولات برند هستن.', appsRole:'مسئولیت من پیشبرد نیازهای B2C و هماهنگی توسعه و نگهداشت این تجربه‌ها در کنار تیم‌ها بود.', appsMetric:'کاربر فعال در مجموع سه اپلیکیشن',
-      moreTitle:'چند مسیر دیگر.', moreIntro:'پروژه‌های B2C و وب‌سایت‌هایی برای کسب‌وکارها و مشتریان متفاوت.', industrialAlt:'نمای محصولات یک سایت ماشین‌آلات صنعتی', industrialLinkAria:'باز کردن سایت SKPIG', industrialBody:'تجربه وب برای معرفی محصولات و کسب‌وکار خودرویی.', kouroshAlt:'وب‌سایت شرکتی کوروش موتور', kouroshShopAlt:'نمای فروشگاه کوروش موتور', kouroshBody:'حضور دیجیتال شرکتی و فروشگاه محصولات.',
-      approachLabel:'طرز فکر من', approachTitle1:'سبز شدن', approachTitle2:'داشبورد مهمه.', approachLead:'برای من تحویل یک فیچر وقتیه که داده‌ها نشون بدن اون فیچر موفق بوده؛ نه فقط وقتی که پابلیش شده.', approachBody:'از شناخت فرایندهای فروش، کارخانه، انبار و خدمات پس از فروش تا کار با تیم فنی، سعی می‌کنم تصویر بزرگ رو ببینم. وقتی چند کسب‌وکار با اولویت‌های متفاوت پای میز هستن، ساختن یک مسیر مشترک هم بخشی از خود محصوله.', toolsAria:'ابزارها و موضوعات مورد علاقه', manifesto:'عاشق دیدن رنگ سبز روی داشبوردم؛ نه فقط وضعیت سبز اپلیکیشن روی کوبر.',
-      contactLabel:'بیا ارتباط بگیریم', contactTitle1:'یه مسئله خوب', contactTitle2:'برای حل کردن داری؟', contactBody:'برای فرصت‌های مدیریت محصول، همکاری و گفت‌وگو درباره ساختن محصول، خوشحال می‌شم ازت بشنوم.', emailMe:'بهم ایمیل بزن', resumeFull:'دانلود رزومه (PDF فارسی)', footerName:'جواد ابراهیمی', footerNote:'با کنجکاوی، برای ساختن.', backTop:'برگشت به بالا',
-      title:'جواد ابراهیمی | مدیر محصول', description:'جواد ابراهیمی؛ مدیر محصول با علاقه به کشف مسئله، داده و ساختن تجربه‌های دیجیتال.'
+      skip:'رفتن به محتوای اصلی', loadingNote:'یه لحظه، دارم همه‌چیز رو کنار هم می‌چینم.', homeAria:'جواد ابراهیمی، صفحه اصلی', cv:'رزومه', navAria:'منوی اصلی', menuOpen:'باز کردن منو', menuClose:'بستن منو', languageAria:'Switch to English', navAbout:'درباره من', navWork:'پروژه‌ها', navApproach:'طرز فکر', navContact:'ارتباط',
+      heroBig:'جواد ابراهیمی', heroKicker:'سلام، من', heroName:'جواد ابراهیمی‌ام.', heroRole:'مدیر محصول؛ کنجکاوِ حرفه‌ای.', heroFoot1:'محصول × آدم‌ها × داده', heroScroll:'داستان از اینجا شروع می‌شه',
+      aboutLabel:'آشنایی', introEyebrow:'سلام، من جوادم.', introTitle:'اگه چیزی درست کار نکنه، دلم می‌خواد بفهمم چرا.', introBody1:'از اون سؤال‌ها که جوابشون معمولا توی یک تیکت جا نمی‌شه. باید با آدم‌ها حرف زد، مسیر رو از نزدیک دید، داده‌ها رو زیر و رو کرد و گاهی تا لاگ‌ها پیش رفت تا خود مسئله پیداش بشه.', introBody2:'از مهندسی کامپیوتر دانشگاه تهران و تجربه بازاریابی به مدیریت محصول رسیدم؛ جایی که می‌شه هم به آدم‌ها نزدیک بود، هم رفت زیر پوست سیستم‌ها.', introLink:'بیشتر از طرز فکرم', introFoot:'دنبال جوابم؛ نه فقط دنبال تسک بعدی.', scaleUsers:'کاربر در سبد محصولات B2C', scaleRequests:'درخواست روزانه در محصولات', scaleClients:'شرکت مشتری با اولویت‌های متفاوت',
+      workLabel:'چند تا از کارهام', workTitleA:'پشت هر محصول،', workTitleB:'یه عالمه داستانه.', workIntro:'این‌ها چند تا از مسیرهاییه که کنار تیم‌ها و کسب‌وکارها ساختم؛ با مسئله‌ها، تصمیم‌ها و نتیجه‌های واقعی‌شون.',
+      clickCoverAria:'مشاهده داستان مدیران کلیک', clickAlt:'نمای کامل صفحه اصلی مدیران کلیک', clickTitle:'مدیران کلیک', clickHeadline:'یک پورتال خدماتی، کم‌کم تبدیل شد به جایی برای ساختن ارتباط بعدی با مشتری.', clickBody:'مدیران کلیک رو زمانی تحویل گرفتم که بیشتر با خدمات پس از فروش شناخته می‌شد. در کنار تیم، از ریبرندینگ تا اضافه شدن مسیرهای فروش و بازاریابی دیجیتال پیش رفتیم؛ طوری که محصول بتونه قبل و بعد از خرید، به کار مشتری بیاد.', clickBody2:'از بررسی رفتار کاربران تا هماهنگی با تیم‌های فروش، خدمات و فنی، دنبال این بودم که مسیرها فقط روی کاغذ خوب نباشن؛ توی آمار هم خودشون رو نشون بدن.', visit:'دیدن وب‌سایت', clickStat1:'لید هدفمند در ماه، با یک قابلیت جذب', clickStat2:'موفقیت کاربران تازه‌ثبت‌نام‌شده در ثبت درخواست', clickStat3:'نرخ موفقیت پرداخت',
+      insuranceCoverAria:'مشاهده داستان بیمه', insuranceAlt:'صفحه اصلی وب‌سایت بیمکو', officeAlt:'نمای ورود به بک‌آفیس بیمه', insuranceTitle:'بیمه، از پشت صحنه تا ویترین', insuranceHeadline:'اول باید کارها راه می‌افتاد؛ بعد نوبت این بود که مشتری‌ها راه‌شون رو پیدا کنن.', insuranceBody:'ماجرا از دل یک نیاز عملیاتی شروع شد: ساختن بک‌آفیسی که کارهای بیمه رو سر و سامان بده و حتی در شرایط اختلال اینترنت هم به ادامه کار کمک کنه. قطعی اینترنت و جنگ ۱۲روزه، اهمیت این نیاز رو برای تیم جدی‌تر کرده بود.', insuranceBody2:'بعدتر بیمکو رو برای جذب سرنخ ساختیم و قدم بعدی، فروش مستقیم بیمه در مدیران کلیک بود؛ سه تکه از یک مسیر که هر کدوم مسئله متفاوتی رو حل می‌کرد.', visitBimco:'دیدن بیمکو', phase1:'بک‌آفیس و عملیات', phase2:'بیمکو و جذب مشتری', phase3:'فروش در مدیران کلیک',
+      appsCoverAria:'مشاهده داستان اپلیکیشن‌های مشتریان', appsAlt:'سه اپلیکیشن مشتریان با اطلاعات حساب پوشانده‌شده', appsTitle:'سه برند، هزاران تجربه روزمره', appsHeadline:'ارتباط مشتری با خودرو، بعد از خرید تازه شکل دیگه‌ای می‌گیره.', appsBody:'اپلیکیشن‌های MVM، Fownix و XTRIM دروازه‌ای به خدمات مشتریان هستن. کار من در این مسیر، پیش بردن نیازهای B2C و کنار هم نگه داشتن تصویر بزرگ تجربه مشتری بود؛ در حالی که هر برند و هر تیم، نیازهای خودش رو داشت.', appsStat:'کاربر فعال در مجموع سه اپلیکیشن',
+      sahandAria:'مشاهده پروژه وب‌سایت سهند خودرو', sahandAlt:'نمای کامل بخش محصولات وب‌سایت سهند خودرو', sahandTitle:'سهند خودرو', sahandBody:'یک ویترین دیجیتال برای معرفی محصولات و ماشین‌آلات سهند خودرو؛ جایی که تجربه وب با دنیای صنعتی روبه‌رو می‌شه.', kouroshAria:'مشاهده پروژه کوروش موتور', kouroshAlt:'نمای وب‌سایت شرکتی کوروش موتور', kouroshShopAlt:'نمای فروشگاه کوروش موتور', kouroshTitle:'کوروش موتور', kouroshBody:'دو بخش از حضور آنلاین یک کسب‌وکار صنعتی: معرفی شرکت و یک فضای جدا برای نمایش و فروش محصولات.',
+      approachLabel:'طرز کار من', approachTitle:'از سؤال خوب تا نتیجه‌ای که بشه دید.', approach1Title:'اول، کشف.', approach1Body:'معمولا پشت یک درخواست ساده، چند تا داستان پیچیده خوابیده. کار من از پرسیدن، دیدن و پیدا کردن مسئله اصلی شروع می‌شه.', approach2Title:'بعد، وصل کردن نقطه‌ها.', approach2Body:'وقتی بیش از ۱۰ شرکت، تیم‌های مختلف و فرایندهایی از کارخانه تا فروش کنار هم قرار می‌گیرن، تصمیم خوب نیاز به دیدن تصویر بزرگ داره.', approach3Title:'و بعد از لانچ؟ تازه می‌فهمیم.', approach3Body:'برای من موفقیت رو انتشار اعلام نمی‌کنه؛ رفتار کاربر و عددها نشونش می‌دن. از API و لاگ گرفته تا داشبورد، هر سرنخی کمک می‌کنه بهتر تصمیم بگیریم.', punch:'سبز شدن داشبورد، یه حس دیگه داره. ✳',
+      contactLabel:'آخرش هم سلام!', contactTitle1:'یه مسئله جالب', contactTitle2:'توی ذهنته؟', contactBody:'اگه فکر می‌کنی می‌تونیم کنار هم محصول بهتری بسازیم، یا حتی فقط می‌خوای درباره یه ایده گپ بزنیم، من هستم.', contactMail:'بهم ایمیل بزن', cvFull:'رزومه (PDF فارسی)', footerName:'جواد ابراهیمی / مدیر محصول', backTop:'برگردیم بالا',
+      title:'جواد ابراهیمی — مدیر محصول', description:'جواد ابراهیمی، مدیر محصول؛ از پیدا کردن سؤال درست تا دیدن نتیجه در دنیای واقعی.'
     },
     en: {
-      skip:'Skip to content', homeAria:'Javad Ebrahimi, home', brandName:'Javad Ebrahimi', navAria:'Main navigation', navAbout:'About', navWork:'Work', navApproach:'Approach', navContact:'Contact', resumeShort:'CV', menuOpen:'Open menu', menuClose:'Close menu', languageAria:'تغییر زبان به فارسی',
-      heroPhotoAria:'Portrait of Javad Ebrahimi', heroIntro:'Hi, I’m', heroFirst:'Javad', heroLast:'Ebrahimi', heroRole:'Product manager · endlessly curious', heroMeta:'Product / Data / People', heroScroll:'Get to know me',
-      aboutLabel:'A little about me', aboutTitle1:'I love', aboutTitle2:'figuring things out.', aboutLead:'I like understanding how processes work, thinking through them with data and finding solutions to real problems.', aboutDetail1:'My work can start with a request, but it doesn’t end when a feature ships. I stay with the problem, the business and the team until we can see the outcome in the data.', aboutDetail2:'My computer engineering background means I’m comfortable getting into the technical layers too: testing APIs in Postman, reading Grafana logs and checking system health in Zabbix.', aboutLink:'More about how I think',
-      numbersAria:'The scale of the work', numberUsers:'users across the B2C portfolio', numberRequests:'daily requests across the products', numberClients:'client companies, each with different priorities', numberNote:'A bigger scale means different problems, more decisions and a lot more to discover.',
-      workLabel:'Selected work', workTitle1:'Products,', workTitle2:'up close.', workIntro:'A few products I helped move from problem to outcome, alongside teams and clients.',
-      clickTag:'SALES · GROWTH · CUSTOMER EXPERIENCE', clickImageAlt:'Modiran Click home page', clickDetailAlt:'A detail from the Modiran Click sales journey', clickSubtitle:'From a service portal to a sales platform.', clickBody:'When I took it on, customer.mvmco.ir was primarily known for after-sales services. During my time, we worked across teams on a major rebrand and expanded the product toward sales and digital marketing.', clickRole:'I worked on understanding processes, prioritising needs, aligning teams and improving the request and payment journeys.', visitSite:'Visit the site', clickMetric1:'qualified leads per month, from one acquisition feature', clickMetric2:'new applicants successfully submitting a request', clickMetric3:'successful payments',
-      insuranceTag:'OPERATIONS · INSURANCE · ONLINE SALES', bimcoImageAlt:'Mybimco online insurance home page', insuranceImageAlt:'Insurance back-office sign-in page', insuranceTitle:'Insurance ecosystem ↗', insuranceSubtitle:'From internal operations to online sales.', insuranceBody:'Our goal was bigger than launching a website. We wanted to automate internal insurance processes and create new ways to sell.', insuranceRole:'I stayed with the product from process analysis and requirements through team coordination and rollout. The idea followed January’s internet outage and the 12-day war; after kickoff, we kept working through the war that followed.', visitBimco:'Visit Mybimco', phase1Title:'Insurance back office', phase1Body:'Automating internal processes; an operational version in three weeks.', phase2Title:'Mybimco website', phase2Body:'An online path to capture leads we might otherwise lose.', phase3Title:'Modiran Click', phase3Body:'Direct insurance sales for Modiran Khodro customers.',
-      appsTag:'APPS · SERVICE · CUSTOMER EXPERIENCE', appsImageAlt:'Three customer apps with account information concealed', appsTitle:'Three apps, one journey ↗', appsSubtitle:'The customer experience after purchase.', appsBody:'The customer journey doesn’t end when a car is delivered. The MVM, Fownix and XTRIM apps connect owners with brand services and products.', appsRole:'I helped move B2C needs forward and coordinated development and maintenance of these experiences with the teams.', appsMetric:'active users across the three apps',
-      moreTitle:'A few more paths.', moreIntro:'B2C projects and websites for different businesses and customers.', industrialAlt:'Products on an industrial machinery website', industrialLinkAria:'Open the SKPIG website', industrialBody:'A web experience for an automotive and machinery business.', kouroshAlt:'Kourosh Motor corporate website', kouroshShopAlt:'Kourosh Motor online store', kouroshBody:'A corporate digital presence and product store.',
-      approachLabel:'How I think', approachTitle1:'The dashboard', approachTitle2:'should go green.', approachLead:'For me, a feature is delivered when its data shows it’s successful—not simply when it has been published.', approachBody:'From sales, factory, warehouse and after-sales processes to working alongside engineers, I try to understand the bigger picture. When several businesses have competing priorities, finding a shared path is part of the product work too.', toolsAria:'Tools and interests', manifesto:'I love seeing green on the dashboard—not just a green app status in Kubernetes.',
-      contactLabel:'Let’s connect', contactTitle1:'Have a good problem', contactTitle2:'to solve?', contactBody:'I’d love to hear from you about product opportunities, collaboration or a conversation about building products.', emailMe:'Email me', resumeFull:'Download CV (Persian PDF)', footerName:'Javad Ebrahimi', footerNote:'Curious enough to build.', backTop:'Back to top',
-      title:'Javad Ebrahimi | Product Manager', description:'Javad Ebrahimi: product manager, curious about problems, data and building digital experiences.'
+      skip:'Skip to main content', loadingNote:'One moment. Connecting a few dots.', homeAria:'Javad Ebrahimi, home', cv:'Résumé', navAria:'Main navigation', menuOpen:'Open menu', menuClose:'Close menu', languageAria:'تغییر زبان به فارسی', navAbout:'About', navWork:'Work', navApproach:'Approach', navContact:'Contact',
+      heroBig:'Javad Ebrahimi', heroKicker:'Hello, I’m', heroName:'Javad Ebrahimi.', heroRole:'Product manager. Professionally curious.', heroFoot1:'PRODUCT × PEOPLE × DATA', heroScroll:'The story starts here',
+      aboutLabel:'A LITTLE INTRODUCTION', introEyebrow:'HELLO, I’M JAVAD.', introTitle:'When something doesn’t work, I want to know why.', introBody1:'The answer usually doesn’t fit neatly into a ticket. It takes conversations, a closer look at the journey, some digging through data and occasionally a trip into the logs to find the real problem.', introBody2:'Computer engineering at the University of Tehran and experience in marketing led me to product management: a place to stay close to people and get under the hood of the systems they use.', introLink:'More about how I work', introFoot:'Here for the answers, not just the next task.', scaleUsers:'users across the B2C portfolio', scaleRequests:'daily requests across the products', scaleClients:'client companies with different priorities',
+      workLabel:'SOME OF MY WORK', workTitleA:'Every product', workTitleB:'has a story.', workIntro:'A few journeys I’ve shared with teams and businesses, with the real problems, decisions and outcomes that came with them.',
+      clickCoverAria:'Explore the Modiran Click story', clickAlt:'The full Modiran Click home page', clickTitle:'Modiran Click', clickHeadline:'A service portal became a place to build the next connection with the customer.', clickBody:'When I took it on, Modiran Click was known mostly for after-sales service. Together, the team took it through a rebrand and introduced sales and digital marketing journeys, making it useful to customers before and after a purchase.', clickBody2:'From looking at user behaviour to aligning sales, service and engineering, I wanted our journeys to work beyond a presentation and show up in the numbers.', visit:'Visit website', clickStat1:'qualified leads per month, from one acquisition feature', clickStat2:'newly registered users successfully submitting a request', clickStat3:'successful payments',
+      insuranceCoverAria:'Explore the insurance story', insuranceAlt:'Mybimco home page', officeAlt:'Insurance back-office sign-in screen', insuranceTitle:'Insurance, from back office to storefront', insuranceHeadline:'First we had to keep operations moving. Then we helped customers find their way in.', insuranceBody:'It started with an operational need: a back office that could bring insurance workflows together and help the organisation keep working during internet disruptions. Internet outages and the 12-day war made that need feel immediate.', insuranceBody2:'Next came Mybimco for capturing leads, followed by direct insurance sales through Modiran Click. Three pieces of one journey, each solving a different problem.', visitBimco:'Visit Mybimco', phase1:'Back office & operations', phase2:'Mybimco & lead capture', phase3:'Sales through Modiran Click',
+      appsCoverAria:'Explore the customer apps story', appsAlt:'Three customer apps with account information concealed', appsTitle:'Three brands, thousands of everyday moments', appsHeadline:'The relationship with a car takes on a different shape after the purchase.', appsBody:'The MVM, Fownix and XTRIM apps connect customers to their services. My role was to move B2C needs forward while keeping the larger customer journey in view, across brands and teams with priorities of their own.', appsStat:'active users across the three apps',
+      sahandAria:'Explore the Sahand Khodro website project', sahandAlt:'Full product section of the Sahand Khodro website', sahandTitle:'Sahand Khodro', sahandBody:'A digital showcase for Sahand Khodro’s products and machinery, where the web meets an industrial world.', kouroshAria:'Explore the Kourosh Motor project', kouroshAlt:'Kourosh Motor corporate website', kouroshShopAlt:'Kourosh Motor online store', kouroshTitle:'Kourosh Motor', kouroshBody:'Two parts of an industrial business’s online presence: a corporate introduction and a dedicated space for product sales.',
+      approachLabel:'HOW I WORK', approachTitle:'From a good question to an outcome you can see.', approach1Title:'First, discover.', approach1Body:'A straightforward request often hides a more complicated story. I start by asking, observing and looking for the real problem.', approach2Title:'Then, connect the dots.', approach2Body:'With more than 10 companies, different teams and workflows from factory to sales, good decisions start with seeing the bigger picture.', approach3Title:'And after launch? That’s when we learn.', approach3Body:'Shipping doesn’t announce success; users and numbers do. From APIs and logs to dashboards, each clue helps us make a better decision.', punch:'A green dashboard just hits different. ✳',
+      contactLabel:'SAY HELLO', contactTitle1:'Have an interesting', contactTitle2:'problem in mind?', contactBody:'If you think we could make a better product together, or just want to talk through an idea, I’d love to hear from you.', contactMail:'Send me an email', cvFull:'Résumé (Persian PDF)', footerName:'JAVAD EBRAHIMI / PRODUCT MANAGER', backTop:'Back to top',
+      title:'Javad Ebrahimi — Product Manager', description:'Javad Ebrahimi, product manager: from asking the right question to seeing results in the real world.'
     }
   };
   const root=document.documentElement;
   const languageButton=document.getElementById('language-toggle');
   const menuButton=document.getElementById('menu-toggle');
-  const nav=document.getElementById('main-nav');
-  const header=document.getElementById('site-header');
-  const progress=document.getElementById('scroll-progress-bar');
+  const menu=document.getElementById('site-menu');
+  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
   let lang='fa';
   try { if(localStorage.getItem('javad-portfolio-language')==='en') lang='en'; } catch (_) {}
   function setMenu(open){
-    nav.classList.toggle('is-open',open);
+    menu.classList.toggle('is-open',open);
     menuButton.setAttribute('aria-expanded',String(open));
     menuButton.setAttribute('aria-label',copy[lang][open?'menuClose':'menuOpen']);
   }
   function applyLanguage(next){
     lang=next==='en'?'en':'fa';
     const strings=copy[lang];
-    root.lang=lang; root.dir=lang==='fa'?'rtl':'ltr';
+    root.lang=lang;root.dir=lang==='fa'?'rtl':'ltr';
     document.querySelectorAll('[data-i18n]').forEach(el=>{const value=strings[el.dataset.i18n];if(typeof value==='string')el.textContent=value;});
     document.querySelectorAll('[data-i18n-aria]').forEach(el=>{const value=strings[el.dataset.i18nAria];if(typeof value==='string')el.setAttribute('aria-label',value);});
     document.querySelectorAll('[data-i18n-alt]').forEach(el=>{const value=strings[el.dataset.i18nAlt];if(typeof value==='string')el.alt=value;});
@@ -59,19 +56,68 @@
     setMenu(false);
     try { localStorage.setItem('javad-portfolio-language',lang); } catch (_) {}
   }
+  const header=document.getElementById('site-header');
+  const syncHeader=()=>header.classList.toggle('is-scrolled',window.scrollY>window.innerHeight*.65);
+  window.addEventListener('scroll',syncHeader,{passive:true});syncHeader();
   languageButton.addEventListener('click',()=>applyLanguage(lang==='fa'?'en':'fa'));
   menuButton.addEventListener('click',()=>setMenu(menuButton.getAttribute('aria-expanded')!=='true'));
-  nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>setMenu(false)));
-  document.addEventListener('keydown',event=>{if(event.key==='Escape')setMenu(false);});
-  let ticking=false;
-  function updateScroll(){
-    ticking=false;
-    const distance=Math.max(1,document.documentElement.scrollHeight-window.innerHeight);
-    progress.style.transform=`scaleX(${Math.min(1,Math.max(0,window.scrollY/distance))})`;
-    header.classList.toggle('is-scrolled',window.scrollY>32);
+  menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>setMenu(false)));
+  document.addEventListener('click',event=>{if(!menu.contains(event.target)&&!menuButton.contains(event.target))setMenu(false);});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'){setMenu(false);finishLoader();}});
+  applyLanguage(lang);
+
+  const loader=document.getElementById('loader');
+  const loadFill=document.getElementById('loader-fill');
+  const loadCount=document.getElementById('loader-count');
+  const loadLine=document.getElementById('loader-line');
+  let loaderDone=false;
+  function finishLoader(){
+    if(loaderDone)return;
+    loaderDone=true;
+    loadFill.style.setProperty('--load','100%');loadCount.textContent='100';loadLine.style.transform='scaleX(1)';
+    loader.classList.add('is-leaving');root.classList.remove('is-loading');
+    window.setTimeout(()=>loader.classList.add('is-finished'),reduce.matches?0:900);
   }
-  function requestScrollUpdate(){if(!ticking){ticking=true;window.requestAnimationFrame(updateScroll);}}
-  window.addEventListener('scroll',requestScrollUpdate,{passive:true});
-  window.addEventListener('resize',requestScrollUpdate);
-  applyLanguage(lang);updateScroll();
+  if(reduce.matches){finishLoader();}else{
+    root.classList.add('is-loading');
+    const start=performance.now();
+    const duration=2050;
+    function tick(now){
+      if(loaderDone)return;
+      const t=Math.min((now-start)/duration,1);
+      const eased=1-Math.pow(1-t,2.1);
+      const count=Math.round(eased*100);
+      loadCount.textContent=String(count).padStart(2,'0');
+      loadFill.style.setProperty('--load',`${count}%`);loadLine.style.transform=`scaleX(${count/100})`;
+      if(t<1)requestAnimationFrame(tick);else finishLoader();
+    }
+    requestAnimationFrame(tick);
+    window.setTimeout(finishLoader,3500);
+  }
+
+  const reveals=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window&&!reduce.matches){
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}}),{threshold:0.08,rootMargin:'0px 0px -30px 0px'});
+    reveals.forEach(el=>observer.observe(el));
+  }else reveals.forEach(el=>el.classList.add('is-visible'));
+
+  if(window.matchMedia('(hover:hover) and (pointer:fine)').matches&&!reduce.matches){
+    let activeCover=null, pointerX=0, pointerY=0, frame=0;
+    function positionPointer(){
+      frame=0;
+      if(!activeCover)return;
+      const rect=activeCover.getBoundingClientRect();
+      activeCover.style.setProperty('--x',`${pointerX-rect.left}px`);
+      activeCover.style.setProperty('--y',`${pointerY-rect.top}px`);
+      activeCover.style.setProperty('--rx',`${((pointerY-rect.top)/rect.height-.5)*-3}deg`);
+      activeCover.style.setProperty('--ry',`${((pointerX-rect.left)/rect.width-.5)*3}deg`);
+    }
+    function schedulePointer(){if(!frame)frame=requestAnimationFrame(positionPointer);}
+    document.querySelectorAll('.case-cover').forEach(cover=>{
+      cover.addEventListener('pointerenter',event=>{activeCover=cover;pointerX=event.clientX;pointerY=event.clientY;cover.classList.add('is-pointer');schedulePointer();});
+      cover.addEventListener('pointerleave',()=>{cover.classList.remove('is-pointer');if(activeCover===cover)activeCover=null;});
+      cover.addEventListener('pointermove',event=>{pointerX=event.clientX;pointerY=event.clientY;schedulePointer();},{passive:true});
+    });
+    window.addEventListener('scroll',schedulePointer,{passive:true});
+  }
 })();
