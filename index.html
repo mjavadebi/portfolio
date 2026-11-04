@@ -2,171 +2,80 @@
 <html lang="fa" dir="rtl" class="no-js">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#14263d">
-  <meta name="description" content="جواد ابراهیمی، مدیر محصول؛ از مسئله‌های پیچیده تا محصولاتی که به کار آدم‌ها می‌آیند.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111f2c">
+  <meta name="description" content="جواد ابراهیمی؛ مدیر محصول با علاقه به کشف مسئله، داده و ساختن تجربه‌های دیجیتال.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="جواد ابراهیمی | مدیر محصول">
-  <meta property="og:description" content="محصول ساختن را دوست دارم. عنوانش قابل مذاکره است.">
+  <meta property="og:description" content="کنجکاوی، ساختن و دنبال کردن نتیجه.">
   <link rel="icon" type="image/png" href="./assets/images/brand-dark.png">
   <link rel="preload" href="./assets/fonts/Doran-VF.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./assets/portfolio-v3/javad-hero.jpg" as="image" fetchpriority="high">
   <link rel="stylesheet" href="./styles.css">
   <title>جواد ابراهیمی | مدیر محصول</title>
   <script>document.documentElement.classList.replace('no-js','js');</script>
   <script src="./script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main" data-i18n="skip">رفتن به محتوای اصلی</a>
-  <header class="site-header" id="top">
-    <div class="header-inner wrap">
-      <a class="brand" href="#top" aria-label="جواد ابراهیمی، صفحه اصلی" data-i18n-aria="brandAria">
-        <img src="./assets/images/brand-light.png" width="38" height="42" alt="">
-        <span class="brand-copy"><strong data-i18n="brandName">جواد ابراهیمی</strong><small lang="en" dir="ltr">PRODUCT FIELD NOTES</small></span>
-      </a>
-      <nav class="main-nav" id="main-nav" aria-label="منوی اصلی" data-i18n-aria="navAria">
-        <a href="#approach" data-i18n="navApproach">طرز فکر من</a>
-        <a href="#story" data-i18n="navStory">یک داستان</a>
-        <a href="#work" data-i18n="navWork">پروژه‌ها</a>
-        <a href="#about" data-i18n="navAbout">درباره من</a>
-      </nav>
-      <div class="header-actions">
-        <button class="language-button" id="language-toggle" type="button" aria-label="Switch to English">EN <span aria-hidden="true">↗</span></button>
-        <a class="header-contact" href="#contact"><span data-i18n="navContact">بیا گپ بزنیم</span><span class="arrow-icon" aria-hidden="true">↗</span></a>
-        <button class="menu-button" id="menu-toggle" type="button" aria-label="باز کردن منو" aria-controls="main-nav" aria-expanded="false"><span></span><span></span></button>
-      </div>
+  <a class="skip-link" href="#main" data-i18n="skip">رفتن به محتوا</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+  <header class="site-header" id="site-header">
+    <div class="header-inner shell">
+      <a class="brand" href="#top" aria-label="جواد ابراهیمی، صفحه اصلی" data-i18n-aria="homeAria"><img src="./assets/images/brand-light.png" width="37" height="41" alt=""><span data-i18n="brandName">جواد ابراهیمی</span></a>
+      <nav class="main-nav" id="main-nav" aria-label="منوی اصلی" data-i18n-aria="navAria"><a href="#about" data-i18n="navAbout">درباره من</a><a href="#work" data-i18n="navWork">پروژه‌ها</a><a href="#approach" data-i18n="navApproach">طرز فکر</a><a href="#contact" data-i18n="navContact">ارتباط</a></nav>
+      <div class="header-actions"><a class="resume-link" href="./assets/portfolio-v3/javad-cv-fa.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="resumeShort">رزومه</span><span aria-hidden="true">↗</span></a><button id="language-toggle" class="language-toggle" type="button" aria-label="Switch to English">EN</button><button id="menu-toggle" class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="باز کردن منو"><span></span><span></span></button></div>
     </div>
   </header>
   <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-grid wrap">
-        <div class="hero-copy">
-          <div class="eyebrow light"><span class="status-dot"></span><span data-i18n="heroEyebrow">جواد ابراهیمی / مدیر محصول</span></div>
-          <h1 id="hero-title" class="personal-hero"><span data-i18n="heroLine1">محصول ساختن رو</span><br><span class="hero-emphasis" data-i18n="heroLine2">دوست دارم.</span><span class="hero-period">●</span></h1>
-          <p class="hero-afterthought" data-i18n="heroAfterthought">عنوانش؟ قابل مذاکره‌ست.</p>
-          <p class="hero-description" data-i18n="heroDesc">سلام، من جوادم. از بازاریابی شروع کردم و رسیدم به ساختن محصول؛ از فروش و بیمه تا اپلیکیشن‌های مشتریان. هم از فهمیدن مسئله خوشم میاد، هم از این‌که ببینم آخرش واقعا کار می‌کنه.</p>
-          <div class="hero-actions">
-            <a class="button button-lime" href="#approach"><span data-i18n="heroPrimary">بیا بیشتر آشنا شیم</span><span class="button-arrow" aria-hidden="true">↙</span></a>
-            <a class="text-link light-link" href="#work"><span data-i18n="heroSecondary">مستقیم برو سراغ کارهام</span><span aria-hidden="true">↗</span></a>
-          </div>
-          <div class="hero-footnote"><span class="fine-line"></span><span data-i18n="heroFootnote">مدیریت محصول · B2C · رشد · تحویل</span></div>
-        </div>
-        <div class="hero-art" aria-label="تصویرسازی جواد ابراهیمی" data-i18n-aria="heroArtAria">
-          <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
-          <div class="portrait-frame"><img src="./assets/images/portrait-illustration.webp" alt="تصویرسازی جواد ابراهیمی" data-i18n-alt="portraitAlt" fetchpriority="high"></div>
-          <div class="portrait-label" aria-hidden="true"><span>JAVAD<br>EBRAHIMI</span><span>01 — 04</span></div>
-          <div class="floating-note" aria-hidden="true"><span class="note-star">✳</span><span>STILL<br>CURIOUS.<br>ALWAYS.</span></div>
-          <div class="hero-index" aria-hidden="true"><span>FIELD NOTE</span><strong>№ 01</strong></div>
-        </div>
-      </div>
-      <div class="hero-bottom wrap"><span lang="en" dir="ltr">B2C · PRODUCT · DELIVERY</span><span class="scroll-cue"><span data-i18n="scroll">داستان از اینجا شروع می‌شه</span> <span aria-hidden="true">↓</span></span></div>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-photo" role="img" aria-label="پرتره جواد ابراهیمی" data-i18n-aria="heroPhotoAria"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-name shell"><p class="hero-intro" data-i18n="heroIntro">سلام، من</p><h1 id="hero-title"><span data-i18n="heroFirst">جواد</span> <span data-i18n="heroLast">ابراهیمی</span><b aria-hidden="true">.</b></h1><p class="hero-role" data-i18n="heroRole">مدیر محصول · عاشق کشف کردن</p></div>
+      <div class="hero-footer shell"><span data-i18n="heroMeta">محصول / داده / آدم‌ها</span><a href="#about"><span data-i18n="heroScroll">بیا آشنا بشیم</span> <span aria-hidden="true">↓</span></a><span dir="ltr">PRODUCT · B2C · DELIVERY</span></div>
+      <div class="hero-side" aria-hidden="true">JAVAD EBRAHIMI / PRODUCT</div>
     </section>
-    <div class="ticker" aria-hidden="true"><div><span>QUESTIONS</span><i>✳</i><span>PEOPLE</span><i>✳</i><span>PRODUCT</span><i>✳</i><span>PROGRESS</span><i>✳</i><span>QUESTIONS</span><i>✳</i><span>PEOPLE</span><i>✳</i><span>PRODUCT</span><i>✳</i><span>PROGRESS</span></div></div>
 
-    <section class="chapters-section section-pad" id="approach" aria-labelledby="chapters-title">
-      <div class="wrap chapters-layout">
-        <div class="chapter-guide">
-          <p class="kicker"><span>01 /</span><span data-i18n="chapterKicker">یک آشنایی کوتاه</span></p>
-          <h2 id="chapters-title"><span data-i18n="chapterTitle1">سه سؤال برای</span><br><em data-i18n="chapterTitle2">شناختن من.</em></h2>
-          <p class="chapter-guide-copy" data-i18n="chapterIntro">اگه بخوام بگم توی کار چطورم، احتمالا از این سه تا سؤال شروع می‌کنم.</p>
-          <nav class="chapter-nav" aria-label="مراحل آشنایی" data-i18n-aria="chaptersAria">
-            <a href="#question-one" data-chapter-link="one" aria-current="step"><span>01</span><span data-i18n="chapterNav1">از کجا شروع می‌کنم؟</span></a>
-            <a href="#question-two" data-chapter-link="two"><span>02</span><span data-i18n="chapterNav2">وسط مسیر چه می‌کنم؟</span></a>
-            <a href="#question-three" data-chapter-link="three"><span>03</span><span data-i18n="chapterNav3">کی کار تموم می‌شه؟</span></a>
-          </nav>
-          <p class="guide-foot" aria-hidden="true">SCROLL TO DISCOVER <span>↓</span></p>
-        </div>
-        <div class="chapter-stack">
-          <article class="chapter-card" id="question-one" data-chapter="one">
-            <div class="chapter-top"><span>01 / THE QUESTION</span><span aria-hidden="true">✳</span></div>
-            <p class="chapter-question" data-i18n="question1">از کجا شروع می‌کنم؟</p>
-            <h3 data-i18n="answer1">از «چرا؟»</h3>
-            <p data-i18n="answerBody1">معمولا اولین چیزی که می‌شنوم یه راه‌حله. من دوست دارم یه قدم عقب‌تر برم و بفهمم اصلا چه مشکلی داریم، برای کی و چرا حل کردنش مهمه.</p>
-            <p class="chapter-aside" data-i18n="answerNote1">کنجکاوی، قبل از فیچر. همیشه.</p>
-          </article>
-          <article class="chapter-card" id="question-two" data-chapter="two">
-            <div class="chapter-top"><span>02 / THE WORK</span><span aria-hidden="true">⌁</span></div>
-            <p class="chapter-question" data-i18n="question2">وسط مسیر چه می‌کنم؟</p>
-            <h3 data-i18n="answer2">آدم‌ها و تکه‌ها رو به هم وصل می‌کنم.</h3>
-            <p data-i18n="answerBody2">با تیم فنی درباره API و محدودیت‌ها حرف می‌زنم، با کسب‌وکار درباره نیازها و با طراحی درباره تجربه. بعد کمک می‌کنم تصمیم‌ها به اولویت و کاری که بشه ساخت تبدیل بشن.</p>
-            <p class="chapter-aside" data-i18n="answerNote2">محصول، کار یک نفر نیست.</p>
-          </article>
-          <article class="chapter-card" id="question-three" data-chapter="three">
-            <div class="chapter-top"><span>03 / THE OUTCOME</span><span aria-hidden="true">↗</span></div>
-            <p class="chapter-question" data-i18n="question3">کی کار تموم می‌شه؟</p>
-            <h3 data-i18n="answer3">وقتی نتیجه رو ببینیم.</h3>
-            <p data-i18n="answerBody3">لانچ برای من خط پایان نیست. به بازخورد و عددها برمی‌گردم تا بفهمم چیزی که ساختیم واقعا گرهی باز کرده یا هنوز باید بهترش کنیم.</p>
-            <p class="chapter-aside" data-i18n="answerNote3">کار کردن محصول، مهم‌تر از صرفا ساخته شدنه.</p>
-          </article>
-        </div>
+    <section class="about-section section-gap" id="about" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div class="section-label"><span>01 /</span><span data-i18n="aboutLabel">کمی درباره من</span></div>
+        <div><h2 id="about-title"><span data-i18n="aboutTitle1">من عاشق</span><br><em data-i18n="aboutTitle2">کشف کردنم.</em></h2><div class="about-body"><p class="lead" data-i18n="aboutLead">دوست دارم بفهمم فرایندها چطور کار می‌کنن، با کمک دیتا بهشون فکر کنم و برای مسئله‌های واقعی راه‌حل پیدا کنم.</p><div class="about-detail"><p data-i18n="aboutDetail1">کارم از یک درخواست شروع می‌شه، ولی به انتشار فیچر ختم نمی‌شه. از شناخت کسب‌وکار و کنار هم آوردن تیم‌ها تا جایی جلو می‌رم که نتیجه رو توی داده‌ها ببینیم.</p><p data-i18n="aboutDetail2">پیشینه مهندسی کامپیوتر باعث شده با دنیای فنی هم راحت باشم؛ از تست API در Postman تا سر زدن به لاگ‌های Grafana و وضعیت سیستم در Zabbix.</p><a class="under-link" href="#approach"><span data-i18n="aboutLink">بیشتر درباره طرز فکرم</span><span aria-hidden="true">↗</span></a></div></div></div>
       </div>
     </section>
 
-    <section class="impact-section" aria-labelledby="impact-title">
-      <div class="wrap">
-        <div class="impact-intro"><span class="impact-mark">✳</span><div><p class="kicker on-dark"><span>02 /</span><span data-i18n="impactKicker">چند عدد از مسیر</span></p><h2 id="impact-title" data-i18n="impactTitle">حالا کمی از حرف، به نتیجه.</h2></div></div>
-        <div class="impact-grid">
-          <div><strong dir="ltr">1M<span>+</span></strong><p data-i18n="metricUsers">کاربر در سبد محصولات B2C</p></div>
-          <div><strong dir="ltr">50K</strong><p data-i18n="metricRequests">درخواست روزانه در سبد محصولات</p></div>
-          <div><strong class="metric-wide" dir="ltr">1.5K<span> → </span>5K<span>+</span></strong><p data-i18n="metricLeads">رشد سرنخ‌های روزانه در مسیر بهبود جذب و فروش</p></div>
-          <div><strong dir="ltr">3 <small data-i18n="weeksShort">هفته</small></strong><p data-i18n="metricWeeks">تا تحویل بک‌آفیس بیمه</p></div>
-        </div>
-        <p class="impact-context" data-i18n="impactContext">این‌ها نتیجه کار تیم‌هایی است که در ساخت و پیشبرد محصولاتشان نقش داشته‌ام.</p>
-      </div>
-    </section>
+    <section class="numbers-section" aria-label="مقیاس کار" data-i18n-aria="numbersAria"><div class="shell numbers-grid"><div><span class="number" dir="ltr">1M<b>+</b></span><p data-i18n="numberUsers">کاربر در سبد محصولات B2C</p></div><div><span class="number" dir="ltr">50K<b>+</b></span><p data-i18n="numberRequests">درخواست روزانه در محصولات</p></div><div><span class="number" dir="ltr">10<b>+</b></span><p data-i18n="numberClients">شرکت مشتری، با اولویت‌های متفاوت</p></div><div class="numbers-note"><span aria-hidden="true">✳</span><p data-i18n="numberNote">مقیاس بزرگ یعنی مسئله‌های متفاوت، تصمیم‌های بیشتر و کلی چیز تازه برای فهمیدن.</p></div></div></section>
 
-    <section class="story-section section-pad" id="story" aria-labelledby="story-title">
-      <div class="wrap story-grid">
-        <div class="story-copy">
-          <p class="kicker"><span>03 /</span><span data-i18n="storyKicker">یک داستان واقعی</span></p>
-          <h2 id="story-title"><span data-i18n="storyTitle1">کیک‌آف رو رفتیم.</span><br><em data-i18n="storyTitle2">بوم؛ دوباره جنگ شد.</em></h2>
-          <p data-i18n="storyIntro">قطعی اینترنت دی‌ماه و جنگ ۱۲ روزه ما رو به فکر یک سیستم جدید برای بیمه انداخته بود؛ سیستمی که حتی وقت اختلال اینترنت، کار سازمان و آدم‌هاش متوقف نشه. تازه جلسه کیک‌آف رو رفته بودیم و دیاگرام‌های اول درآمده بود که دوباره جنگ شد.</p>
-          <p data-i18n="storyEnd">این بار ول نکردیم. با تیم، توی سه هفته بک‌آفیس بیمه رو به بهره‌برداری رسوندیم. هشت ماه بعد، فروش آنلاینش هم در مدیران کلیک راه افتاد.</p>
-          <p class="story-role"><strong data-i18n="myRole">نقش من:</strong> <span data-i18n="storyRole">از تحلیل فرایند و تعریف نیازمندی‌ها تا هماهنگی تیم‌ها و استقرار محصول.</span></p>
-          <a class="inline-link" href="#contact"><span data-i18n="storyLink">درباره این تجربه بپرس</span><span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="story-card">
-          <div class="story-card-head"><span>FIELD NOTE / INSURANCE</span><span aria-hidden="true">✳</span></div>
-          <div class="story-card-number" dir="ltr">03<span>WEEKS</span></div>
-          <p data-i18n="storyCardText">از یک مسئله واقعی تا محصولی که تیم بیمه بتواند با آن کار کند.</p>
-          <div class="story-steps" role="group" aria-label="مراحل داستان" data-i18n-aria="storyStepsAria">
-            <button type="button" class="story-step is-active" data-step="0" aria-pressed="true"><span>01</span><span data-i18n="step1">مسئله</span></button>
-            <button type="button" class="story-step" data-step="1" aria-pressed="false"><span>02</span><span data-i18n="step2">ساخت</span></button>
-            <button type="button" class="story-step" data-step="2" aria-pressed="false"><span>03</span><span data-i18n="step3">نتیجه</span></button>
-          </div>
-          <p class="step-description" id="step-description" aria-live="polite">چطور کار بیمه رو در روزهای اختلال ادامه بدیم؟</p>
-          <div class="story-card-footer"><span>PROBLEM → PRODUCT</span><span id="story-counter">01 / 03</span></div>
-        </div>
-      </div>
-    </section>
+    <section class="work-section section-gap" id="work" aria-labelledby="work-title"><div class="shell">
+      <div class="work-heading"><div><div class="section-label light-label"><span>02 /</span><span data-i18n="workLabel">کارهای منتخب</span></div><h2 id="work-title"><span data-i18n="workTitle1">محصول‌ها،</span><br><em data-i18n="workTitle2">از نزدیک.</em></h2></div><p data-i18n="workIntro">چند تا از محصولاتی که کنار تیم‌ها و مشتری‌ها از مسئله تا نتیجه پیش بردم.</p></div>
 
-    <section class="work-section section-pad" id="work" aria-labelledby="work-title">
-      <div class="wrap">
-        <div class="section-heading"><div><p class="kicker"><span>04 /</span><span data-i18n="workKicker">چیزهایی که رویشان کار کرده‌ام</span></p><h2 id="work-title"><span data-i18n="workTitle1">محصول‌ها.</span><br><em data-i18n="workTitle2">و قصه پشتشان.</em></h2></div><p class="section-intro" data-i18n="workIntro">چند نمونه از محصولاتی که در تاپ‌تک، کنار تیم‌های مختلف برای مشتریان مدیران خودرو پیش بردم.</p></div>
-        <article class="showcase-feature">
-          <div class="showcase-art"><div class="showcase-art-top"><span>01 / B2C PLATFORM</span><span aria-hidden="true">↗</span></div><div class="showcase-wordmark" dir="ltr">modiran<span>.</span><br>click</div><div class="showcase-route" aria-hidden="true"><i></i><span></span><i></i><span></span><i></i></div><p>SALES / INSURANCE / CUSTOMER JOURNEY</p></div>
-          <div class="showcase-copy"><p class="showcase-overline" data-i18n="clickType">سکوی فروش و خدمات دیجیتال</p><h3 dir="ltr">Modiran Click <span aria-hidden="true">✳</span></h3><p data-i18n="clickDesc">از خرید خودرو تا بیمه و خدمات مشتری؛ مدیران کلیک جایی است که چندین سرویس و مسیر مشتری به هم می‌رسند.</p><div class="role-line"><strong data-i18n="myRole">نقش من:</strong><span data-i18n="clickRole">تعریف و اولویت‌بندی نیازها، هماهنگی تیم‌ها و پیشبرد قابلیت‌های فروش و بیمه تا تحویل.</span></div><div class="showcase-actions"><a class="project-link" href="https://modiran.click" target="_blank" rel="noopener noreferrer" aria-label="باز کردن مدیران کلیک در تب جدید" data-i18n-aria="openClick"><span data-i18n="visitProduct">رفتن به محصول</span><span aria-hidden="true">↗</span></a><a class="project-text-link" href="#story" data-i18n="readCase">قصه بیمه را بخوان</a></div></div>
-        </article>
-        <article class="apps-showcase">
-          <div class="apps-copy"><p class="showcase-overline" data-i18n="appsType">تجربه مشتری / سه اپلیکیشن</p><h3><span data-i18n="appsTitle1">سه برند.</span><br><em data-i18n="appsTitle2">یک دغدغه مشترک.</em></h3><p data-i18n="appsDesc">مشتری بعد از خرید خودرو تازه وارد یک مسیر طولانی می‌شود. این اپلیکیشن‌ها بخشی از ارتباط او با خدمات برندهای MVM، فونیکس و اکستریم هستند.</p><div class="role-line"><strong data-i18n="myRole">نقش من:</strong><span data-i18n="appsRole">پیشبرد نیازها، هماهنگی توسعه و نگهداشت تجربه مشتری در کنار تیم‌ها.</span></div><div class="apps-scale"><strong dir="ltr">200K<span>+</span></strong><span data-i18n="appsScale">کاربر فعال در مجموع سه اپلیکیشن</span></div></div>
-          <div class="app-directory" aria-label="لینک اپلیکیشن‌ها" data-i18n-aria="appDirectoryAria">
-            <p data-i18n="appDirectoryTitle">محصول‌ها رو ببین</p>
-            <a href="https://app.mvmco.ir" target="_blank" rel="noopener noreferrer"><span class="app-number">01</span><span class="app-name">MVM</span><span class="app-domain" dir="ltr">app.mvmco.ir</span><span class="app-arrow" aria-hidden="true">↗</span></a>
-            <a href="https://app.fownix.com" target="_blank" rel="noopener noreferrer"><span class="app-number">02</span><span class="app-name">Fownix</span><span class="app-domain" dir="ltr">app.fownix.com</span><span class="app-arrow" aria-hidden="true">↗</span></a>
-            <a href="https://app.xtrimcars.com" target="_blank" rel="noopener noreferrer"><span class="app-number">03</span><span class="app-name">XTRIM</span><span class="app-domain" dir="ltr">app.xtrimcars.com</span><span class="app-arrow" aria-hidden="true">↗</span></a>
-            <p class="directory-note" data-i18n="directoryNote">هر لینک، محصول اصلی رو در یک تب جدید باز می‌کنه.</p>
-          </div>
-        </article>
-      </div>
-    </section>
+      <article class="project project-click" id="project-modiran" aria-labelledby="click-title">
+        <div class="project-heading"><span class="project-index">01 / B2C PLATFORM</span><span class="project-type" data-i18n="clickTag">فروش · رشد · تجربه مشتری</span></div>
+        <div class="project-media media-click"><img src="./assets/portfolio-v3/modiran-home.webp" alt="صفحه اصلی مدیران کلیک" data-i18n-alt="clickImageAlt" width="1600" height="762" loading="lazy"><img class="project-detail-image" src="./assets/portfolio-v3/modiran-banner.webp" alt="نمایی از مسیر فروش مدیران کلیک" data-i18n-alt="clickDetailAlt" width="609" height="138" loading="lazy"></div>
+        <div class="project-info"><div><h3 id="click-title" dir="ltr">Modiran Click<span> ↗</span></h3><p class="project-subtitle" data-i18n="clickSubtitle">از پورتال خدمات تا سکوی فروش.</p></div><div class="project-description"><p data-i18n="clickBody">وقتی این محصول رو تحویل گرفتم، با نام customer.mvmco.ir بیشتر برای خدمات پس از فروش شناخته می‌شد. در مدت حضور من، کنار تیم‌ها یک ریبرندینگ بزرگ رو پیش بردیم و مسیر محصول رو به سمت فروش و بازاریابی دیجیتال گسترش دادیم.</p><p data-i18n="clickRole">روی شناخت فرایندها، اولویت‌بندی نیازها، هماهنگی تیم‌ها و بهبود تجربه ثبت درخواست و پرداخت کار کردم.</p><a class="under-link" href="https://modiran.click" target="_blank" rel="noopener noreferrer"><span data-i18n="visitSite">رفتن به سایت</span><span aria-hidden="true">↗</span></a></div></div>
+        <div class="project-outcomes"><div><strong dir="ltr">1,500 → 5,000<span>+</span></strong><p data-i18n="clickMetric1">لید هدفمند در ماه، با یک قابلیت جذب</p></div><div><strong dir="ltr">65% → 92%</strong><p data-i18n="clickMetric2">موفقیت متقاضیان جدید در ثبت درخواست</p></div><div><strong dir="ltr">76% → 100%</strong><p data-i18n="clickMetric3">موفقیت پرداخت</p></div></div>
+      </article>
 
-    <section class="about-section section-pad" id="about" aria-labelledby="about-title">
-      <div class="wrap about-grid">
-        <div class="about-photo-wrap"><img src="./assets/images/javad-photo.webp" alt="جواد ابراهیمی" data-i18n-alt="photoAlt" loading="lazy"><span class="photo-note" aria-hidden="true">A HUMAN<br>BEHIND THE<br>PRODUCT. ↗</span><span class="photo-index" aria-hidden="true">05 / ABOUT</span></div>
-        <div class="about-copy"><p class="kicker"><span>05 /</span><span data-i18n="aboutKicker">کمی شخصی‌تر</span></p><h2 id="about-title"><span data-i18n="aboutTitle1">من فقط از مسیر</span><br><em data-i18n="aboutTitle2">محصول نیومدم.</em></h2><p data-i18n="aboutP1">از محتوا و بازاریابی شروع کردم، مهندسی کامپیوتر می‌خونم و کم‌کم جذب جایی شدم که تکنولوژی، آدم‌ها و کسب‌وکار به هم می‌رسن.</p><p data-i18n="aboutP2">یکی از هم‌بنیان‌گذارهای DanAI بودم؛ استارتاپی در حوزه یادگیری. اون تجربه به موفقیتی که می‌خواستیم نرسید، ولی برای من بخشی از مسیر یاد گرفتن ساختن بود.</p><p data-i18n="aboutP3">من از مسئله‌های مبهم فرار نمی‌کنم؛ دوست دارم بفهمم داستان از چه قراره و کمک کنم بالاخره یه قدم جلو بریم.</p><div class="about-signature"><span class="signature-line"></span><span lang="en" dir="ltr">Javad Ebrahimi</span></div></div>
-      </div>
-    </section>
-    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><div><p class="kicker on-dark"><span>06 /</span><span data-i18n="contactKicker">بیا ارتباط بگیریم</span></p><h2 id="contact-title"><span data-i18n="contactTitle1">یه مسئله خوب</span><br><em data-i18n="contactTitle2">برای حل کردن داری؟</em></h2><p data-i18n="contactDesc">برای فرصت‌های مدیریت محصول، همکاری یا حتی یک گفت‌وگوی خوب درباره ساختن محصول، خوشحال می‌شم ازت بشنوم.</p><div class="contact-links"><a href="mailto:javad138212@gmail.com"><span data-i18n="emailMe">بهم ایمیل بزن</span><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/javad-ebrahimi-b08b9a247" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div></div><div class="contact-stamp" aria-hidden="true"><span>LET’S MAKE</span><strong>something<br><em>matter.</em></strong><span>JAVAD / PRODUCT NOTES</span></div></div></section>
+      <article class="project project-insurance" id="project-insurance" aria-labelledby="insurance-title">
+        <div class="project-heading"><span class="project-index">02 / INSURTECH</span><span class="project-type" data-i18n="insuranceTag">اتوماسیون · بیمه · فروش آنلاین</span></div>
+        <div class="insurance-media"><figure><img src="./assets/portfolio-v3/mybimco.webp" alt="صفحه اصلی فروش آنلاین بیمکو" data-i18n-alt="bimcoImageAlt" width="1600" height="762" loading="lazy"><figcaption>MYBIMCO / B2C</figcaption></figure><figure><img src="./assets/portfolio-v3/insurance-office.webp" alt="صفحه ورود سامانه بک‌آفیس بیمه" data-i18n-alt="insuranceImageAlt" width="1150" height="450" loading="lazy"><figcaption>INSURANCE / BACK OFFICE</figcaption></figure></div>
+        <div class="project-info"><div><h3 id="insurance-title" data-i18n="insuranceTitle">اکوسیستم بیمه<span> ↗</span></h3><p class="project-subtitle" data-i18n="insuranceSubtitle">از عملیات داخلی تا فروش آنلاین.</p></div><div class="project-description"><p data-i18n="insuranceBody">هدف ما فقط راه‌اندازی یک وب‌سایت نبود. می‌خواستیم فرایندهای داخلی بیمه رو خودکار کنیم و بعد، مسیرهای جدیدی برای فروش بسازیم.</p><p data-i18n="insuranceRole">از تحلیل فرایندها و تعریف نیازمندی‌ها تا هماهنگی تیم‌ها و استقرار، کنار محصول بودم. ایده بعد از قطعی اینترنت دی‌ماه و جنگ ۱۲روزه شکل گرفت و پس از کیک‌آف، در میانه جنگ بعدی کار رو ادامه دادیم.</p><a class="under-link" href="https://mybimco.com" target="_blank" rel="noopener noreferrer"><span data-i18n="visitBimco">رفتن به بیمکو</span><span aria-hidden="true">↗</span></a></div></div>
+        <div class="phase-grid"><div><span>01 / OPERATIONS</span><strong data-i18n="phase1Title">بک‌آفیس بیمه</strong><p data-i18n="phase1Body">اتوماسیون فرایندهای داخلی؛ نسخه عملیاتی در سه هفته.</p></div><div><span>02 / LEAD CAPTURE</span><strong data-i18n="phase2Title">وب‌سایت بیمکو</strong><p data-i18n="phase2Body">ساخت یک مسیر آنلاین برای از دست ندادن سرنخ‌ها.</p></div><div><span>03 / DIRECT SALES</span><strong data-i18n="phase3Title">مدیران کلیک</strong><p data-i18n="phase3Body">فروش مستقیم بیمه برای مشتریان مدیران خودرو.</p></div></div>
+      </article>
+
+      <article class="project project-apps" id="project-apps" aria-labelledby="apps-title">
+        <div class="project-heading"><span class="project-index">03 / CUSTOMER APPS</span><span class="project-type" data-i18n="appsTag">اپلیکیشن · خدمات · تجربه مشتری</span></div>
+        <div class="project-media media-apps"><div class="apps-backdrop" aria-hidden="true">MVM / FOWNIX / XTRIM</div><img src="./assets/portfolio-v3/apps-masked.webp" alt="نمایی از سه اپلیکیشن مشتریان، با اطلاعات حساب پوشانده‌شده" data-i18n-alt="appsImageAlt" width="682" height="478" loading="lazy"></div>
+        <div class="project-info"><div><h3 id="apps-title" data-i18n="appsTitle">سه اپ، یک مسیر<span> ↗</span></h3><p class="project-subtitle" data-i18n="appsSubtitle">تجربه مشتری بعد از خرید.</p></div><div class="project-description"><p data-i18n="appsBody">تجربه مشتری با تحویل خودرو تموم نمی‌شه. اپلیکیشن‌های MVM، Fownix و XTRIM بخشی از ارتباط او با خدمات و محصولات برند هستن.</p><p data-i18n="appsRole">مسئولیت من پیشبرد نیازهای B2C و هماهنگی توسعه و نگهداشت این تجربه‌ها در کنار تیم‌ها بود.</p><div class="app-links"><a href="https://app.mvmco.ir" target="_blank" rel="noopener noreferrer">MVM ↗</a><a href="https://app.fownix.com" target="_blank" rel="noopener noreferrer">FOWNIX ↗</a><a href="https://app.xtrimcars.com" target="_blank" rel="noopener noreferrer">XTRIM ↗</a></div></div></div>
+        <div class="single-outcome"><strong dir="ltr">200K<span>+</span></strong><p data-i18n="appsMetric">کاربر فعال در مجموع سه اپلیکیشن</p></div>
+      </article>
+
+      <div class="more-heading"><span class="project-index">04 / MORE WORK</span><h3 data-i18n="moreTitle">چند مسیر دیگر.</h3><p data-i18n="moreIntro">پروژه‌های B2C و وب‌سایت‌هایی برای کسب‌وکارها و مشتریان متفاوت.</p></div>
+      <div class="more-grid"><article class="small-project"><div class="small-project-image"><img src="./assets/portfolio-v3/industrial.webp" alt="نمای محصولات یک سایت ماشین‌آلات صنعتی" data-i18n-alt="industrialAlt" width="1600" height="753" loading="lazy"></div><div class="small-project-copy"><div><span class="project-index">AUTOMOTIVE / WEB</span><h4>SKPIG</h4><p data-i18n="industrialBody">تجربه وب برای معرفی محصولات و کسب‌وکار خودرویی.</p></div><a href="https://skpig.com" target="_blank" rel="noopener noreferrer" aria-label="باز کردن سایت SKPIG" data-i18n-aria="industrialLinkAria">↗</a></div></article><article class="small-project"><div class="small-project-image kourosh-media"><img src="./assets/portfolio-v3/kourosh-corporate.webp" alt="وب‌سایت شرکتی کوروش موتور" data-i18n-alt="kouroshAlt" width="844" height="517" loading="lazy"><img src="./assets/portfolio-v3/kourosh-shop.webp" alt="نمای فروشگاه کوروش موتور" data-i18n-alt="kouroshShopAlt" width="846" height="518" loading="lazy"></div><div class="small-project-copy"><div><span class="project-index">INDUSTRY / WEB</span><h4>Kourosh Motor</h4><p data-i18n="kouroshBody">حضور دیجیتال شرکتی و فروشگاه محصولات.</p></div><span aria-hidden="true">✳</span></div></article></div>
+    </div></section>
+
+    <section class="approach-section section-gap" id="approach" aria-labelledby="approach-title"><div class="shell"><div class="section-label"><span>03 /</span><span data-i18n="approachLabel">طرز فکر من</span></div><div class="approach-grid"><h2 id="approach-title"><span data-i18n="approachTitle1">سبز شدن</span><br><em data-i18n="approachTitle2">داشبورد مهمه.</em></h2><div class="approach-copy"><p class="lead" data-i18n="approachLead">برای من تحویل یک فیچر وقتیه که داده‌ها نشون بدن اون فیچر موفق بوده؛ نه فقط وقتی که پابلیش شده.</p><p data-i18n="approachBody">از شناخت فرایندهای فروش، کارخانه، انبار و خدمات پس از فروش تا کار با تیم فنی، سعی می‌کنم تصویر بزرگ رو ببینم. وقتی چند کسب‌وکار با اولویت‌های متفاوت پای میز هستن، ساختن یک مسیر مشترک هم بخشی از خود محصوله.</p><div class="tool-list" aria-label="ابزارها و موضوعات مورد علاقه" data-i18n-aria="toolsAria"><span>POSTMAN</span><span>GRAFANA</span><span>ZABBIX</span><span>DATA</span><span>B2C</span></div></div></div><div class="manifesto-line"><span data-i18n="manifesto">عاشق دیدن رنگ سبز روی داشبوردم؛ نه فقط وضعیت سبز اپلیکیشن روی کوبر.</span><span aria-hidden="true">✳</span></div></div></section>
+
+    <section class="contact-section section-gap" id="contact" aria-labelledby="contact-title"><div class="shell"><div class="section-label light-label"><span>04 /</span><span data-i18n="contactLabel">بیا ارتباط بگیریم</span></div><div class="contact-grid"><h2 id="contact-title"><span data-i18n="contactTitle1">یه مسئله خوب</span><br><em data-i18n="contactTitle2">برای حل کردن داری؟</em></h2><div><p data-i18n="contactBody">برای فرصت‌های مدیریت محصول، همکاری و گفت‌وگو درباره ساختن محصول، خوشحال می‌شم ازت بشنوم.</p><div class="contact-actions"><a href="mailto:javad138212@gmail.com"><span data-i18n="emailMe">بهم ایمیل بزن</span> ↗</a><a href="https://www.linkedin.com/in/javad-ebrahimi-b08b9a247" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="./assets/portfolio-v3/javad-cv-fa.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="resumeFull">دانلود رزومه (PDF فارسی)</span> ↗</a></div></div></div><div class="footer-wordmark" aria-hidden="true" dir="ltr">JAVAD<span>.</span></div></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><img src="./assets/images/brand-light.png" alt="" width="30" height="33"><span data-i18n="footerName">جواد ابراهیمی</span></div><p data-i18n="footerNote">همیشه کنجکاو. همیشه در حال ساختن.</p><a href="#top"><span data-i18n="backTop">برگشت به بالا</span> ↑</a></div></footer>
+  <footer class="footer"><div class="shell footer-inner"><span data-i18n="footerName">جواد ابراهیمی</span><span data-i18n="footerNote">با کنجکاوی، برای ساختن.</span><a href="#top"><span data-i18n="backTop">برگشت به بالا</span> ↑</a></div></footer>
 </body>
 </html>

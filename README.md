@@ -1,6 +1,6 @@
-# Javad Ebrahimi — Portfolio
+# Javad Ebrahimi — Product Portfolio
 
-A bilingual, static portfolio built with HTML, CSS and vanilla JavaScript. Persian is the default; visitors can switch to English. All fonts and images are local, and paths work under a GitHub Pages project URL such as `/portfolio/`.
+A Persian-first portfolio with an English translation, built as static HTML, CSS and vanilla JavaScript. Doran and the English display font are self-hosted; all paths work under a GitHub Pages project URL such as `/portfolio/`.
 
 ## Run locally
 
@@ -14,15 +14,15 @@ Open `http://localhost:8000/`.
 
 ## GitHub Pages
 
-Once the desired branch is merged, choose **Settings → Pages → Deploy from a branch**, select the branch and the `/ (root)` folder, then save. No build step or framework is required.
+After merging the desired changes, choose **Settings → Pages → Deploy from a branch**, select `main` and the `/ (root)` folder, then save. No build step or framework is required.
 
 ## Editing
 
-- `index.html`: structure and Persian default content.
-- `script.js`: Persian and English copy, language switch, scroll-aware introduction and case-study interaction.
-- `styles.css`: responsive layout, brand colors and local font setup.
-- `assets/`: the supplied brand imagery and locally hosted typefaces.
+- `index.html`: page structure, project links and Persian default content.
+- `script.js`: Persian and English copy, language toggle, mobile menu and reading progress.
+- `styles.css`: responsive layout, colors, local fonts and reduced-motion behavior.
+- `assets/portfolio-v3/`: the cropped portrait, privacy-edited project images and the supplied Persian resume PDF. Both language versions currently link to the same Persian PDF.
 
-The work section uses direct links to the four original products. This avoids empty embedded frames when a product does not permit embedding; the destinations themselves may require a particular network or login.
+Project links open the original products directly. Their availability depends on the visitor's network and the destination websites.
 
 DM Serif Display is distributed under the included SIL Open Font License. Doran is the font provided in the owner's existing repository.
