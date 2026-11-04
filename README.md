@@ -18,7 +18,7 @@ After merging, choose **Settings → Pages → Deploy from a branch**, select `m
 
 ## Editing
 
-- `index.html`: structure, Persian default copy, accessibility labels, project links and the portrait-led hero.
+- `index.html`: structure, Persian default copy, accessibility labels, project links, the portrait-led hero and generalist skills.
 - `script.js`: Persian and English copy, language switch, menu, opening sequence, scroll reveals, count-up metrics and pointer interaction.
 - `styles.css`: layout, type, brand colors, motion and responsive behavior.
 - `assets/portfolio-v3/`: the cropped portrait, privacy-edited project images and the supplied Persian résumé PDF. Both language modes link to the same Persian PDF.
