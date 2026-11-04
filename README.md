@@ -19,10 +19,10 @@ Once the desired branch is merged, choose **Settings → Pages → Deploy from a
 ## Editing
 
 - `index.html`: structure and Persian default content.
-- `script.js`: Persian and English copy, project URLs, language switch, case-study interaction and live preview dialog.
+- `script.js`: Persian and English copy, language switch, scroll-aware introduction and case-study interaction.
 - `styles.css`: responsive layout, brand colors and local font setup.
 - `assets/`: the supplied brand imagery and locally hosted typefaces.
 
-The project preview opens the real external URL in an iframe on request. Some sites can block embedding or require a particular network; the direct link remains available in every project card and preview dialog.
+The work section uses direct links to the four original products. This avoids empty embedded frames when a product does not permit embedding; the destinations themselves may require a particular network or login.
 
 DM Serif Display is distributed under the included SIL Open Font License. Doran is the font provided in the owner's existing repository.
