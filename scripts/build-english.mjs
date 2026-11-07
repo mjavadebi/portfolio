@@ -33,7 +33,8 @@ html=html.replace(/<title>[^<]*<\/title>/,'<title>'+checked('title')+'</title>')
   .replace(/(<button class="lang-switch" id="language-toggle" type="button" aria-label=")[^"]*(">)[^<]*(<\/button>)/,'$1'+checked('languageAria')+'$2فا$3')
   .replaceAll('./assets/','../assets/')
   .replace('href="./styles.css"','href="../styles.css"')
-  .replace('src="./script.js"','src="../script.js"');
+  .replace('src="./script.js"','src="../script.js"')
+  .replace('src="./motion.js"','src="../motion.js"');
 if(!html.includes('<html lang="en" dir="ltr"'))throw new Error('Could not set English language');
 for(const directory of ['en','dist/en']){
   fs.mkdirSync(path.join(root,directory),{recursive:true});

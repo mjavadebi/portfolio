@@ -3,7 +3,7 @@
   const copy = {
     fa: {
       skip:'رفتن به محتوای اصلی', loadingNote:'جواد همین دور و براست، صداش کنم بیاد…', homeAria:'جواد ابراهیمی، صفحه اصلی', cv:'رزومه', navAria:'منوی اصلی', menuOpen:'باز کردن منو', menuClose:'بستن منو', languageAria:'Switch to English', navAbout:'درباره من', navSkills:'مهارت‌ها', navWork:'پروژه‌ها', navApproach:'طرز فکر', navContact:'ارتباط',
-      heroKicker:'جواد ابراهیمی / مدیر محصول', heroLine1:'لانچ شد؟', heroLine2:'حالا ببینیم', heroLine3:'کار کرد یا نه.', heroLede:'از پیدا کردن مسئله تا وقتی که نتیجه رو توی رفتار آدم‌ها و عددها ببینیم، پای کارم.', heroPrimary:'بیا کارهام رو ببین', heroSecondary:'بیشتر درباره من', heroPhotoAlt:'پرتره جواد ابراهیمی',
+      heroKicker:'جواد ابراهیمی / مدیر محصول', heroLine1:'لانچ شد؟', heroLine2:'حالا ببینیم', heroLine3:'کار کرد یا نه.', heroLede:'از پیدا کردن مسئله تا وقتی که نتیجه رو توی رفتار آدم‌ها و عددها ببینیم، پای کارم.', heroPrimary:'بیا کارهام رو ببین', heroSecondary:'بیشتر درباره من', heroPhotoAlt:'پرتره جواد ابراهیمی', portraitLight:'چراغ رو روشن کن', scrollHint:'یکم کنجکاوی کن',
       aboutLabel:'آشنایی', introEyebrow:'سلام، من جوادم.', introTitle:'اگه چیزی درست کار نکنه، دلم می‌خواد بفهمم چرا.', introBody1:'وقتی با یه مسئله روبه‌رو می‌شم، دوست دارم اول بفهمم واقعا از کجا میاد. با آدم‌ها حرف می‌زنم، فرایند رو از نزدیک بررسی می‌کنم و سراغ داده‌ها و لاگ‌ها می‌رم تا راه‌حل مناسب‌تری پیدا کنم.', introBody2:'از مهندسی کامپیوتر دانشگاه تهران و تجربه بازاریابی به مدیریت محصول رسیدم؛ جایی که می‌شه هم به آدم‌ها نزدیک بود، هم رفت زیر پوست سیستم‌ها.', introBody3:'برای من، مسئولیت نتیجه از شناخت بیزینس و هدفش شروع می‌شه. دوست دارم در تصمیم‌های استراتژیک نقش داشته باشم و با اختیار متناسب، مسیر رسیدن به هدف رو طراحی کنم و تا نتیجه دنبالش باشم.', introLink:'بیشتر از طرز فکرم', introFoot:'دنبال جوابم؛ نه فقط دنبال تسک بعدی.', scaleUsers:'کاربر در سبد محصولات B2C', scaleRequests:'درخواست روزانه در محصولات', scaleClients:'بیزینس با اولویت‌های متفاوت',
       skillAriaProduct:'مهارت‌های محصول', skillAriaDesign:'مهارت‌های طراحی', skillAriaData:'مهارت‌های داده', skillAriaTech:'مهارت‌های فنی', skillAriaPeople:'مهارت‌های کار با آدم‌ها', skillAriaAi:'مهارت‌های هوش مصنوعی',
       leanLabel:'الهام از تفکر Lean Startup', leanBody:'بزرگ‌ترین چیزی که از ساختن استارتاپم یاد گرفتم، تفکر لین بود: فرضیه‌ها رو زود آزمایش کنم، از داده و بازخورد یاد بگیرم و بر اساسش قدم بعدی رو بردارم.', leanHypothesis:'فرضیه', leanBuild:'ساختن', leanMeasure:'سنجیدن', leanLearn:'یاد گرفتن',
@@ -20,7 +20,7 @@
     },
     en: {
       skip:'Skip to main content', loadingNote:'Javad’s around here somewhere. Let me get him…', homeAria:'Javad Ebrahimi, home', cv:'Résumé', navAria:'Main navigation', menuOpen:'Open menu', menuClose:'Close menu', languageAria:'تغییر زبان به فارسی', navAbout:'About', navSkills:'Skills', navWork:'Work', navApproach:'Approach', navContact:'Contact',
-      heroKicker:'JAVAD EBRAHIMI / PRODUCT MANAGER', heroLine1:'It’s live.', heroLine2:'Now the question:', heroLine3:'did it work?', heroLede:'From finding the real problem to seeing the result in people’s behaviour and the numbers, I’m in it for the whole journey.', heroPrimary:'Explore my work', heroSecondary:'More about me', heroPhotoAlt:'Portrait of Javad Ebrahimi',
+      heroKicker:'JAVAD EBRAHIMI / PRODUCT MANAGER', heroLine1:'It’s live.', heroLine2:'Now the question:', heroLine3:'did it work?', heroLede:'From finding the real problem to seeing the result in people’s behaviour and the numbers, I’m in it for the whole journey.', heroPrimary:'Explore my work', heroSecondary:'More about me', heroPhotoAlt:'Portrait of Javad Ebrahimi', portraitLight:'Lights on', scrollHint:'Stay curious. Scroll on.',
       aboutLabel:'A LITTLE INTRODUCTION', introEyebrow:'HELLO, I’M JAVAD.', introTitle:'When something doesn’t work, I want to know why.', introBody1:'When I encounter a problem, I want to understand where it comes from first. I talk to the people involved, look closely at the process and dig into data and logs to find a better solution.', introBody2:'Computer engineering at the University of Tehran and experience in marketing led me to product management: a place to stay close to people and get under the hood of the systems they use.', introBody3:'For me, responsibility for an outcome starts with understanding the business and its goals. I want to contribute to strategic decisions and have the authority to shape the path to those goals and see the results through.', introLink:'More about how I work', introFoot:'Here for the answers, not just the next task.', scaleUsers:'users across the B2C portfolio', scaleRequests:'daily requests across the products', scaleClients:'businesses with different priorities',
       skillAriaProduct:'Product skills', skillAriaDesign:'Design skills', skillAriaData:'Data skills', skillAriaTech:'Technical skills', skillAriaPeople:'People skills', skillAriaAi:'AI skills',
       leanLabel:'INSPIRED BY LEAN STARTUP', leanBody:'The biggest lesson I took from building my startup was Lean thinking: test assumptions early, learn from data and feedback, and use that learning to decide what comes next.', leanHypothesis:'Hypothesis', leanBuild:'Build', leanMeasure:'Measure', leanLearn:'Learn',
@@ -91,6 +91,7 @@
   window.addEventListener('scroll',syncHeader,{passive:true});syncHeader();
   languageButton.addEventListener('click',()=>changeLanguage(lang==='fa'?'en':'fa'));
   window.addEventListener('popstate',()=>applyLanguage(languageFromPath()));
+  let copyFeedbackTimer=0;
   copyEmailButton.addEventListener('click',async()=>{
     const address=document.getElementById('email-address').textContent.trim();
     let copied=false;
@@ -105,6 +106,9 @@
       helper.remove();copyEmailButton.focus({preventScroll:true});
     }
     emailCopyStatus.textContent=copy[lang][copied?'emailCopied':'emailCopyManual'];
+    copyEmailButton.classList.toggle('is-copied',copied);
+    window.clearTimeout(copyFeedbackTimer);
+    if(copied)copyFeedbackTimer=window.setTimeout(()=>copyEmailButton.classList.remove('is-copied'),2200);
     if(!copied){
       const selection=window.getSelection();const range=document.createRange();
       range.selectNodeContents(document.getElementById('email-address'));
@@ -135,6 +139,7 @@
     const duration=2050;
     function tick(now){
       if(loaderDone)return;
+      if(reduce.matches){finishLoader();return;}
       const t=Math.min((now-start)/duration,1);
       const eased=1-Math.pow(1-t,2.1);
       const count=Math.round(eased*100);
@@ -169,6 +174,7 @@
         if(!Number.isFinite(target))return;
         const start=performance.now(), duration=1400;
         function countFrame(now){
+          if(reduce.matches){number.textContent=finalText;return;}
           const progress=Math.min((now-start)/duration,1);
           if(progress>=1){number.textContent=finalText;return;}
           const value=target*(1-Math.pow(1-progress,3));
@@ -181,23 +187,4 @@
     } catch (_) { /* Original values remain visible. */ }
   }
 
-  if(window.matchMedia('(hover:hover) and (pointer:fine)').matches&&!reduce.matches){
-    let activeCover=null, pointerX=0, pointerY=0, frame=0;
-    function positionPointer(){
-      frame=0;
-      if(!activeCover)return;
-      const rect=activeCover.getBoundingClientRect();
-      activeCover.style.setProperty('--x',`${pointerX-rect.left}px`);
-      activeCover.style.setProperty('--y',`${pointerY-rect.top}px`);
-      activeCover.style.setProperty('--rx',`${((pointerY-rect.top)/rect.height-.5)*-3}deg`);
-      activeCover.style.setProperty('--ry',`${((pointerX-rect.left)/rect.width-.5)*3}deg`);
-    }
-    function schedulePointer(){if(!frame)frame=requestAnimationFrame(positionPointer);}
-    document.querySelectorAll('.case-cover').forEach(cover=>{
-      cover.addEventListener('pointerenter',event=>{activeCover=cover;pointerX=event.clientX;pointerY=event.clientY;cover.classList.add('is-pointer');schedulePointer();});
-      cover.addEventListener('pointerleave',()=>{cover.classList.remove('is-pointer');if(activeCover===cover)activeCover=null;});
-      cover.addEventListener('pointermove',event=>{pointerX=event.clientX;pointerY=event.clientY;schedulePointer();},{passive:true});
-    });
-    window.addEventListener('scroll',schedulePointer,{passive:true});
-  }
 })();
